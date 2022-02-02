@@ -4,7 +4,7 @@
 
 wget -O /var/volatile/tmp/script.tar.gz "https://raw.githubusercontent.com/emil237/scripts/main/script.tar.gz"
 wait
-tar xzvpf /tmp/*.tar.gz  -C /
+tar -xzf /tmp/*.tar.gz  -C /
 wait
 rm -r /var/volatile/tmp/script.tar.gz                         
 
@@ -22,6 +22,7 @@ echo "#########################################################"
 wait
 sleep 2
 exit 0
+
 
 
 
