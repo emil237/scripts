@@ -1,5 +1,6 @@
 #!/bin/sh
 #
+
 #command wget https://raw.githubusercontent.com/emil237/scripts/main/installer.sh -O - | /bin/sh
 
 wget -O /var/volatile/tmp/script.tar.gz "https://raw.githubusercontent.com/emil237/scripts/main/script.tar.gz"
@@ -22,6 +23,7 @@ echo "#########################################################"
 wait
 sleep 2
 exit 0
+
 
 
 
