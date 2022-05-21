@@ -2,6 +2,9 @@
  # 
 #command wget https://raw.githubusercontent.com/emil237/scripts/main/installer.sh -O - | /bin/sh
  # # 
+# remove old scripts #
+echo " Remove Old Scripts "
+rm -rf /usr/script/*.sh
 cd /tmp
 set -e 
 wget "https://raw.githubusercontent.com/emil237/scripts/main/script.tar.gz"
@@ -18,5 +21,6 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
 
 
